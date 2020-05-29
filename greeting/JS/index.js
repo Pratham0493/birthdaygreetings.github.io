@@ -1078,7 +1078,7 @@ window.onload = function(){
 	//////////////////////////////////
 
 
-	document.getElementById("giftbox_18").onclick = function()
+	/*document.getElementById("giftbox_18").onclick = function()
 	{
 	       
 	  var merrywrap = document.getElementById("merrywrap_18");
@@ -1119,7 +1119,7 @@ window.onload = function(){
 
 	  init();
 
-	}
+	}*/
 }
 //MY CHANGES
 
@@ -1143,7 +1143,7 @@ function reveal() {
   document.getElementById("giftbox_15").style.display = "none";
   document.getElementById("giftbox_16").style.display = "none";
   document.getElementById("giftbox_17").style.display = "none";
-  document.getElementById("giftbox_18").style.display = "none";
+  //document.getElementById("giftbox_18").style.display = "none";
   
   document.querySelector('.merrywrap').style.backgroundColor = 'transparent';
   document.querySelector('.merrywrap_1').style.backgroundColor = 'transparent';
@@ -1163,7 +1163,7 @@ function reveal() {
   document.querySelector('.merrywrap_15').style.backgroundColor = 'transparent';
   document.querySelector('.merrywrap_16').style.backgroundColor = 'transparent';
   document.querySelector('.merrywrap_17').style.backgroundColor = 'transparent';
-  document.querySelector('.merrywrap_18').style.backgroundColor = 'transparent';
+  //document.querySelector('.merrywrap_18').style.backgroundColor = 'transparent';
   loop();
 
   var w, h;
