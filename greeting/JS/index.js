@@ -251,887 +251,891 @@ function loop() {
 
 
 window.onload = function(){
-	document.getElementById("giftbox").onclick = function()
-	{
-
-	       
-	  var merrywrap = document.getElementById("merrywrap");
-	  var box = document.getElementsByClassName("giftbox")[0];
-	  
-	  var step = 1;
-	  var stepMinutes = [2000, 2000, 1000, 1000];
-	  function init() 
-	  {
-	    
-	      box.addEventListener("click", openBox, false);  
-	  
-	  }
-	  function stepClass(step) {
-	    merrywrap.className = 'merrywrap';
-	    merrywrap.className = 'merrywrap step-' + step;
-	  }
-	  function openBox() {
-	   
-	      if (step === 1) 
-	      {
-	        box.removeEventListener("click", openBox, false);
-	      
-	      }
-	      stepClass(step);
-	      if (step === 3) {
-	        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
-	      }
-	      if (step === 4) {
-	        reveal();
-	        return;
-	      }
-	      setTimeout(openBox, stepMinutes[step - 1]);
-	      step++;  
-	  
-	   
-	  }
-
-	  init();
-	}
-
-
-
-
-	document.getElementById("giftbox_1").onclick = function()
-	{
-	       
-	  var merrywrap = document.getElementById("merrywrap_1");
-	  var box = document.getElementsByClassName("giftbox_1")[0];
-	  
-	  var step = 1;
-	  var stepMinutes = [2000, 2000, 1000, 1000];
-	  function init() 
-	  {
-	    
-	      box.addEventListener("click", openBox, false);  
-	  
-	  }
-	  function stepClass(step) {
-	    merrywrap.className = 'merrywrap_1';
-	    merrywrap.className = 'merrywrap_1 step-' + step;
-	  }
-	  function openBox() {
-	   
-	      if (step === 1) 
-	      {
-	        box.removeEventListener("click", openBox, false);
-	      
-	      }
-	      stepClass(step);
-	      if (step === 3) {
-	        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
-	      }
-	      if (step === 4) {
-	        reveal();
-	        return;
-	      }
-	      setTimeout(openBox, stepMinutes[step - 1]);
-	      step++;  
-	  
-	   
-	  }
-
-	  init();
-
-	}
-
-	//MY CHANGES
-
-	document.getElementById("giftbox_2").onclick = function()
-	{
-	       
-	  var merrywrap = document.getElementById("merrywrap_2");
-	  var box = document.getElementsByClassName("giftbox_2")[0];
-	  
-	  var step = 1;
-	  var stepMinutes = [2000, 2000, 1000, 1000];
-	  function init() 
-	  {
-	    
-	      box.addEventListener("click", openBox, false);  
-	  
-	  }
-	  function stepClass(step) {
-	    merrywrap.className = 'merrywrap_2';
-	    merrywrap.className = 'merrywrap_2 step-' + step;
-	  }
-	  function openBox() {
-	   
-	      if (step === 1) 
-	      {
-	        box.removeEventListener("click", openBox, false);
-	      
-	      }
-	      stepClass(step);
-	      if (step === 3) {
-	        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
-	      }
-	      if (step === 4) {
-	        reveal();
-	        return;
-	      }
-	      setTimeout(openBox, stepMinutes[step - 1]);
-	      step++;  
-	  
-	   
-	  }
-
-	  init();
-
-	}
-
-	//////////////////////////////////
-
-
-	document.getElementById("giftbox_3").onclick = function()
-	{
-	       
-	  var merrywrap = document.getElementById("merrywrap_3");
-	  var box = document.getElementsByClassName("giftbox_3")[0];
-	  
-	  var step = 1;
-	  var stepMinutes = [2000, 2000, 1000, 1000];
-	  function init() 
-	  {
-	    
-	      box.addEventListener("click", openBox, false);  
-	  
-	  }
-	  function stepClass(step) {
-	    merrywrap.className = 'merrywrap_3';
-	    merrywrap.className = 'merrywrap_3 step-' + step;
-	  }
-	  function openBox() {
-	   
-	      if (step === 1) 
-	      {
-	        box.removeEventListener("click", openBox, false);
-	      
-	      }
-	      stepClass(step);
-	      if (step === 3) {
-	        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
-	      }
-	      if (step === 4) {
-	        reveal();
-	        return;
-	      }
-	      setTimeout(openBox, stepMinutes[step - 1]);
-	      step++;  
-	  
-	   
-	  }
-
-	  init();
-
-	}
-
-	//////////////////////////////////
-
-
-	document.getElementById("giftbox_4").onclick = function()
-	{
-	       
-	  var merrywrap = document.getElementById("merrywrap_4");
-	  var box = document.getElementsByClassName("giftbox_4")[0];
-	  
-	  var step = 1;
-	  var stepMinutes = [2000, 2000, 1000, 1000];
-	  function init() 
-	  {
-	    
-	      box.addEventListener("click", openBox, false);  
-	  
-	  }
-	  function stepClass(step) {
-	    merrywrap.className = 'merrywrap_4';
-	    merrywrap.className = 'merrywrap_4 step-' + step;
-	  }
-	  function openBox() {
-	   
-	      if (step === 1) 
-	      {
-	        box.removeEventListener("click", openBox, false);
-	      
-	      }
-	      stepClass(step);
-	      if (step === 3) {
-	        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
-	      }
-	      if (step === 4) {
-	        reveal();
-	        return;
-	      }
-	      setTimeout(openBox, stepMinutes[step - 1]);
-	      step++;  
-	  
-	   
-	  }
-
-	  init();
-
-	}
-
-	//////////////////////////////////
-
-
-	document.getElementById("giftbox_5").onclick = function()
-	{
-	       
-	  var merrywrap = document.getElementById("merrywrap_5");
-	  var box = document.getElementsByClassName("giftbox_5")[0];
-	  
-	  var step = 1;
-	  var stepMinutes = [2000, 2000, 1000, 1000];
-	  function init() 
-	  {
-	    
-	      box.addEventListener("click", openBox, false);  
-	  
-	  }
-	  function stepClass(step) {
-	    merrywrap.className = 'merrywrap_5';
-	    merrywrap.className = 'merrywrap_5 step-' + step;
-	  }
-	  function openBox() {
-	   
-	      if (step === 1) 
-	      {
-	        box.removeEventListener("click", openBox, false);
-	      
-	      }
-	      stepClass(step);
-	      if (step === 3) {
-	        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
-	      }
-	      if (step === 4) {
-	        reveal();
-	        return;
-	      }
-	      setTimeout(openBox, stepMinutes[step - 1]);
-	      step++;  
-	  
-	   
-	  }
-
-	  init();
-
-	}
-
-	//////////////////////////////////
-
-
-	/* //document.getElementById("giftbox_6").onclick = function()
-	{
-	       
-	  var merrywrap = document.getElementById("merrywrap_6");
-	  var box = document.getElementsByClassName("giftbox_6")[0];
-	  
-	  var step = 1;
-	  var stepMinutes = [2000, 2000, 1000, 1000];
-	  function init() 
-	  {
-	    
-	      box.addEventListener("click", openBox, false);  
-	  
-	  }
-	  function stepClass(step) {
-	    merrywrap.className = 'merrywrap_6';
-	    merrywrap.className = 'merrywrap_6 step-' + step;
-	  }
-	  function openBox() {
-	   
-	      if (step === 1) 
-	      {
-	        box.removeEventListener("click", openBox, false);
-	      
-	      }
-	      stepClass(step);
-	      if (step === 3) {
-	        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
-	      }
-	      if (step === 4) {
-	        reveal();
-	        return;
-	      }
-	      setTimeout(openBox, stepMinutes[step - 1]);
-	      step++;  
-	  
-	   
-	  }
-
-	  init();
-
-	}
-	 */
-	//////////////////////////////////
-
-
-	document.getElementById("giftbox_7").onclick = function()
-	{
-	       
-	  var merrywrap = document.getElementById("merrywrap_7");
-	  var box = document.getElementsByClassName("giftbox_7")[0];
-	  
-	  var step = 1;
-	  var stepMinutes = [2000, 2000, 1000, 1000];
-	  function init() 
-	  {
-	    
-	      box.addEventListener("click", openBox, false);  
-	  
-	  }
-	  function stepClass(step) {
-	    merrywrap.className = 'merrywrap_7';
-	    merrywrap.className = 'merrywrap_7 step-' + step;
-	  }
-	  function openBox() {
-	   
-	      if (step === 1) 
-	      {
-	        box.removeEventListener("click", openBox, false);
-	      
-	      }
-	      stepClass(step);
-	      if (step === 3) {
-	        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
-	      }
-	      if (step === 4) {
-	        reveal();
-	        return;
-	      }
-	      setTimeout(openBox, stepMinutes[step - 1]);
-	      step++;  
-	  
-	   
-	  }
-
-	  init();
-
-	}
-
-	//////////////////////////////////
-
-
-	document.getElementById("giftbox_8").onclick = function()
-	{
-	       
-	  var merrywrap = document.getElementById("merrywrap_8");
-	  var box = document.getElementsByClassName("giftbox_8")[0];
-	  
-	  var step = 1;
-	  var stepMinutes = [2000, 2000, 1000, 1000];
-	  function init() 
-	  {
-	    
-	      box.addEventListener("click", openBox, false);  
-	  
-	  }
-	  function stepClass(step) {
-	    merrywrap.className = 'merrywrap_8';
-	    merrywrap.className = 'merrywrap_8 step-' + step;
-	  }
-	  function openBox() {
-	   
-	      if (step === 1) 
-	      {
-	        box.removeEventListener("click", openBox, false);
-	      
-	      }
-	      stepClass(step);
-	      if (step === 3) {
-	        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
-	      }
-	      if (step === 4) {
-	        reveal();
-	        return;
-	      }
-	      setTimeout(openBox, stepMinutes[step - 1]);
-	      step++;  
-	  
-	   
-	  }
-
-	  init();
-
-	}
-
-	//////////////////////////////////
-
-
-	document.getElementById("giftbox_9").onclick = function()
-	{
-	       
-	  var merrywrap = document.getElementById("merrywrap_9");
-	  var box = document.getElementsByClassName("giftbox_9")[0];
-	  
-	  var step = 1;
-	  var stepMinutes = [2000, 2000, 1000, 1000];
-	  function init() 
-	  {
-	    
-	      box.addEventListener("click", openBox, false);  
-	  
-	  }
-	  function stepClass(step) {
-	    merrywrap.className = 'merrywrap_9';
-	    merrywrap.className = 'merrywrap_9 step-' + step;
-	  }
-	  function openBox() {
-	   
-	      if (step === 1) 
-	      {
-	        box.removeEventListener("click", openBox, false);
-	      
-	      }
-	      stepClass(step);
-	      if (step === 3) {
-	        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
-	      }
-	      if (step === 4) {
-	        reveal();
-	        return;
-	      }
-	      setTimeout(openBox, stepMinutes[step - 1]);
-	      step++;  
-	  
-	   
-	  }
-
-	  init();
-
-	}
-
-	//////////////////////////////////
-
-
-	document.getElementById("giftbox_10").onclick = function()
-	{
-	       
-	  var merrywrap = document.getElementById("merrywrap_10");
-	  var box = document.getElementsByClassName("giftbox_10")[0];
-	  
-	  var step = 1;
-	  var stepMinutes = [2000, 2000, 1000, 1000];
-	  function init() 
-	  {
-	    
-	      box.addEventListener("click", openBox, false);  
-	  
-	  }
-	  function stepClass(step) {
-	    merrywrap.className = 'merrywrap_3';
-	    merrywrap.className = 'merrywrap_3 step-' + step;
-	  }
-	  function openBox() {
-	   
-	      if (step === 1) 
-	      {
-	        box.removeEventListener("click", openBox, false);
-	      
-	      }
-	      stepClass(step);
-	      if (step === 3) {
-	        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
-	      }
-	      if (step === 4) {
-	        reveal();
-	        return;
-	      }
-	      setTimeout(openBox, stepMinutes[step - 1]);
-	      step++;  
-	  
-	   
-	  }
-
-	  init();
-
-	}
-
-	//////////////////////////////////
-
-
-	document.getElementById("giftbox_11").onclick = function()
-	{
-	       
-	  var merrywrap = document.getElementById("merrywrap_11");
-	  var box = document.getElementsByClassName("giftbox_11")[0];
-	  
-	  var step = 1;
-	  var stepMinutes = [2000, 2000, 1000, 1000];
-	  function init() 
-	  {
-	    
-	      box.addEventListener("click", openBox, false);  
-	  
-	  }
-	  function stepClass(step) {
-	    merrywrap.className = 'merrywrap_11';
-	    merrywrap.className = 'merrywrap_11 step-' + step;
-	  }
-	  function openBox() {
-	   
-	      if (step === 1) 
-	      {
-	        box.removeEventListener("click", openBox, false);
-	      
-	      }
-	      stepClass(step);
-	      if (step === 3) {
-	        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
-	      }
-	      if (step === 4) {
-	        reveal();
-	        return;
-	      }
-	      setTimeout(openBox, stepMinutes[step - 1]);
-	      step++;  
-	  
-	   
-	  }
-
-	  init();
-
-	}
-
-	//////////////////////////////////
-
-
-	document.getElementById("giftbox_12").onclick = function()
-	{
-	       
-	  var merrywrap = document.getElementById("merrywrap_12");
-	  var box = document.getElementsByClassName("giftbox_12")[0];
-	  
-	  var step = 1;
-	  var stepMinutes = [2000, 2000, 1000, 1000];
-	  function init() 
-	  {
-	    
-	      box.addEventListener("click", openBox, false);  
-	  
-	  }
-	  function stepClass(step) {
-	    merrywrap.className = 'merrywrap_12';
-	    merrywrap.className = 'merrywrap_12 step-' + step;
-	  }
-	  function openBox() {
-	   
-	      if (step === 1) 
-	      {
-	        box.removeEventListener("click", openBox, false);
-	      
-	      }
-	      stepClass(step);
-	      if (step === 3) {
-	        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
-	      }
-	      if (step === 4) {
-	        reveal();
-	        return;
-	      }
-	      setTimeout(openBox, stepMinutes[step - 1]);
-	      step++;  
-	  
-	   
-	  }
-
-	  init();
-
-	}
-
-	//////////////////////////////////
-
-
-	document.getElementById("giftbox_13").onclick = function()
-	{
-	       
-	  var merrywrap = document.getElementById("merrywrap_13");
-	  var box = document.getElementsByClassName("giftbox_13")[0];
-	  
-	  var step = 1;
-	  var stepMinutes = [2000, 2000, 1000, 1000];
-	  function init() 
-	  {
-	    
-	      box.addEventListener("click", openBox, false);  
-	  
-	  }
-	  function stepClass(step) {
-	    merrywrap.className = 'merrywrap_13';
-	    merrywrap.className = 'merrywrap_13 step-' + step;
-	  }
-	  function openBox() {
-	   
-	      if (step === 1) 
-	      {
-	        box.removeEventListener("click", openBox, false);
-	      
-	      }
-	      stepClass(step);
-	      if (step === 3) {
-	        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
-	      }
-	      if (step === 4) {
-	        reveal();
-	        return;
-	      }
-	      setTimeout(openBox, stepMinutes[step - 1]);
-	      step++;  
-	  
-	   
-	  }
-
-	  init();
-
-	}
-
-	//////////////////////////////////
-
-
-	document.getElementById("giftbox_14").onclick = function()
-	{
-	       
-	  var merrywrap = document.getElementById("merrywrap_14");
-	  var box = document.getElementsByClassName("giftbox_14")[0];
-	  
-	  var step = 1;
-	  var stepMinutes = [2000, 2000, 1000, 1000];
-	  function init() 
-	  {
-	    
-	      box.addEventListener("click", openBox, false);  
-	  
-	  }
-	  function stepClass(step) {
-	    merrywrap.className = 'merrywrap_14';
-	    merrywrap.className = 'merrywrap_14 step-' + step;
-	  }
-	  function openBox() {
-	   
-	      if (step === 1) 
-	      {
-	        box.removeEventListener("click", openBox, false);
-	      
-	      }
-	      stepClass(step);
-	      if (step === 3) {
-	        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
-	      }
-	      if (step === 4) {
-	        reveal();
-	        return;
-	      }
-	      setTimeout(openBox, stepMinutes[step - 1]);
-	      step++;  
-	  
-	   
-	  }
-
-	  init();
-
-	}
-
-	//////////////////////////////////
-
-
-	document.getElementById("giftbox_15").onclick = function()
-	{
-	       
-	  var merrywrap = document.getElementById("merrywrap_15");
-	  var box = document.getElementsByClassName("giftbox_15")[0];
-	  
-	  var step = 1;
-	  var stepMinutes = [2000, 2000, 1000, 1000];
-	  function init() 
-	  {
-	    
-	      box.addEventListener("click", openBox, false);  
-	  
-	  }
-	  function stepClass(step) {
-	    merrywrap.className = 'merrywrap_15';
-	    merrywrap.className = 'merrywrap_15 step-' + step;
-	  }
-	  function openBox() {
-	   
-	      if (step === 1) 
-	      {
-	        box.removeEventListener("click", openBox, false);
-	      
-	      }
-	      stepClass(step);
-	      if (step === 3) {
-	        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
-	      }
-	      if (step === 4) {
-	        reveal();
-	        return;
-	      }
-	      setTimeout(openBox, stepMinutes[step - 1]);
-	      step++;  
-	  
-	   
-	  }
-
-	  init();
-
-	}
-
-	//////////////////////////////////
-
-
-	document.getElementById("giftbox_16").onclick = function()
-	{
-	       
-	  var merrywrap = document.getElementById("merrywrap_16");
-	  var box = document.getElementsByClassName("giftbox_16")[0];
-	  
-	  var step = 1;
-	  var stepMinutes = [2000, 2000, 1000, 1000];
-	  function init() 
-	  {
-	    
-	      box.addEventListener("click", openBox, false);  
-	  
-	  }
-	  function stepClass(step) {
-	    merrywrap.className = 'merrywrap_16';
-	    merrywrap.className = 'merrywrap_16 step-' + step;
-	  }
-	  function openBox() {
-	   
-	      if (step === 1) 
-	      {
-	        box.removeEventListener("click", openBox, false);
-	      
-	      }
-	      stepClass(step);
-	      if (step === 3) {
-	        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
-	      }
-	      if (step === 4) {
-	        reveal();
-	        return;
-	      }
-	      setTimeout(openBox, stepMinutes[step - 1]);
-	      step++;  
-	  
-	   
-	  }
-
-	  init();
-
-	}
-
-	//////////////////////////////////
-
-
-	document.getElementById("giftbox_17").onclick = function()
-	{
-	       
-	  var merrywrap = document.getElementById("merrywrap_17");
-	  var box = document.getElementsByClassName("giftbox_17")[0];
-	  
-	  var step = 1;
-	  var stepMinutes = [2000, 2000, 1000, 1000];
-	  function init() 
-	  {
-	    
-	      box.addEventListener("click", openBox, false);  
-	  
-	  }
-	  function stepClass(step) {
-	    merrywrap.className = 'merrywrap_17';
-	    merrywrap.className = 'merrywrap_17 step-' + step;
-	  }
-	  function openBox() {
-	   
-	      if (step === 1) 
-	      {
-	        box.removeEventListener("click", openBox, false);
-	      
-	      }
-	      stepClass(step);
-	      if (step === 3) {
-	        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
-	      }
-	      if (step === 4) {
-	        reveal();
-	        return;
-	      }
-	      setTimeout(openBox, stepMinutes[step - 1]);
-	      step++;  
-	  
-	   
-	  }
-
-	  init();
-
-	}
-
-	//////////////////////////////////
-
-
-	/*document.getElementById("giftbox_18").onclick = function()
-	{
-	       
-	  var merrywrap = document.getElementById("merrywrap_18");
-	  var box = document.getElementsByClassName("giftbox_18")[0];
-	  
-	  var step = 1;
-	  var stepMinutes = [2000, 2000, 1000, 1000];
-	  function init() 
-	  {
-	    
-	      box.addEventListener("click", openBox, false);  
-	  
-	  }
-	  function stepClass(step) {
-	    merrywrap.className = 'merrywrap_18';
-	    merrywrap.className = 'merrywrap_18 step-' + step;
-	  }
-	  function openBox() {
-	   
-	      if (step === 1) 
-	      {
-	        box.removeEventListener("click", openBox, false);
-	      
-	      }
-	      stepClass(step);
-	      if (step === 3) {
-	        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
-	      }
-	      if (step === 4) {
-	        reveal();
-	        return;
-	      }
-	      setTimeout(openBox, stepMinutes[step - 1]);
-	      step++;  
-	  
-	   
-	  }
-
-	  init();
-
-	}*/
+document.getElementById("giftbox").onclick = function()
+{
+
+       
+  var merrywrap = document.getElementById("merrywrap");
+  var box = document.getElementsByClassName("giftbox")[0];
+  
+  var step = 1;
+  var stepMinutes = [2000, 2000, 1000, 1000];
+  function init() 
+  {
+    
+      box.addEventListener("click", openBox, false);  
+  
+  }
+  function stepClass(step) {
+    merrywrap.className = 'merrywrap';
+    merrywrap.className = 'merrywrap step-' + step;
+  }
+  function openBox() {
+   
+      if (step === 1) 
+      {
+        box.removeEventListener("click", openBox, false);
+      
+      }
+      stepClass(step);
+      if (step === 3) {
+        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
+      }
+      if (step === 4) {
+        reveal();
+        return;
+      }
+      setTimeout(openBox, stepMinutes[step - 1]);
+      step++;  
+  
+   
+  }
+
+  init();
 }
+
+
+
+
+document.getElementById("giftbox_1").onclick = function()
+{
+       
+  var merrywrap = document.getElementById("merrywrap_1");
+  var box = document.getElementsByClassName("giftbox_1")[0];
+  
+  var step = 1;
+  var stepMinutes = [2000, 2000, 1000, 1000];
+  function init() 
+  {
+    
+      box.addEventListener("click", openBox, false);  
+  
+  }
+  function stepClass(step) {
+    merrywrap.className = 'merrywrap_1';
+    merrywrap.className = 'merrywrap_1 step-' + step;
+  }
+  function openBox() {
+   
+      if (step === 1) 
+      {
+        box.removeEventListener("click", openBox, false);
+      
+      }
+      stepClass(step);
+      if (step === 3) {
+        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
+      }
+      if (step === 4) {
+        reveal();
+        return;
+      }
+      setTimeout(openBox, stepMinutes[step - 1]);
+      step++;  
+  
+   
+  }
+
+  init();
+
+}
+
 //MY CHANGES
+
+document.getElementById("giftbox_2").onclick = function()
+{
+       
+  var merrywrap = document.getElementById("merrywrap_2");
+  var box = document.getElementsByClassName("giftbox_2")[0];
+  
+  var step = 1;
+  var stepMinutes = [2000, 2000, 1000, 1000];
+  function init() 
+  {
+    
+      box.addEventListener("click", openBox, false);  
+  
+  }
+  function stepClass(step) {
+    merrywrap.className = 'merrywrap_2';
+    merrywrap.className = 'merrywrap_2 step-' + step;
+  }
+  function openBox() {
+   
+      if (step === 1) 
+      {
+        box.removeEventListener("click", openBox, false);
+      
+      }
+      stepClass(step);
+      if (step === 3) {
+        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
+      }
+      if (step === 4) {
+        reveal();
+        return;
+      }
+      setTimeout(openBox, stepMinutes[step - 1]);
+      step++;  
+  
+   
+  }
+
+  init();
+
+}
+
+//////////////////////////////////
+
+
+document.getElementById("giftbox_3").onclick = function()
+{
+       
+  var merrywrap = document.getElementById("merrywrap_3");
+  var box = document.getElementsByClassName("giftbox_3")[0];
+  
+  var step = 1;
+  var stepMinutes = [2000, 2000, 1000, 1000];
+  function init() 
+  {
+    
+      box.addEventListener("click", openBox, false);  
+  
+  }
+  function stepClass(step) {
+    merrywrap.className = 'merrywrap_3';
+    merrywrap.className = 'merrywrap_3 step-' + step;
+  }
+  function openBox() {
+   
+      if (step === 1) 
+      {
+        box.removeEventListener("click", openBox, false);
+      
+      }
+      stepClass(step);
+      if (step === 3) {
+        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
+      }
+      if (step === 4) {
+        reveal();
+        return;
+      }
+      setTimeout(openBox, stepMinutes[step - 1]);
+      step++;  
+  
+   
+  }
+
+  init();
+
+}
+
+//////////////////////////////////
+
+
+document.getElementById("giftbox_4").onclick = function()
+{
+       
+  var merrywrap = document.getElementById("merrywrap_4");
+  var box = document.getElementsByClassName("giftbox_4")[0];
+  
+  var step = 1;
+  var stepMinutes = [2000, 2000, 1000, 1000];
+  function init() 
+  {
+    
+      box.addEventListener("click", openBox, false);  
+  
+  }
+  function stepClass(step) {
+    merrywrap.className = 'merrywrap_4';
+    merrywrap.className = 'merrywrap_4 step-' + step;
+  }
+  function openBox() {
+   
+      if (step === 1) 
+      {
+        box.removeEventListener("click", openBox, false);
+      
+      }
+      stepClass(step);
+      if (step === 3) {
+        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
+      }
+      if (step === 4) {
+        reveal();
+        return;
+      }
+      setTimeout(openBox, stepMinutes[step - 1]);
+      step++;  
+  
+   
+  }
+
+  init();
+
+}
+
+//////////////////////////////////
+
+
+document.getElementById("giftbox_5").onclick = function()
+{
+       
+  var merrywrap = document.getElementById("merrywrap_5");
+  var box = document.getElementsByClassName("giftbox_5")[0];
+  
+  var step = 1;
+  var stepMinutes = [2000, 2000, 1000, 1000];
+  function init() 
+  {
+    
+      box.addEventListener("click", openBox, false);  
+  
+  }
+  function stepClass(step) {
+    merrywrap.className = 'merrywrap_5';
+    merrywrap.className = 'merrywrap_5 step-' + step;
+  }
+  function openBox() {
+   
+      if (step === 1) 
+      {
+        box.removeEventListener("click", openBox, false);
+      
+      }
+      stepClass(step);
+      if (step === 3) {
+        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
+      }
+      if (step === 4) {
+        reveal();
+        return;
+      }
+      setTimeout(openBox, stepMinutes[step - 1]);
+      step++;  
+  
+   
+  }
+
+  init();
+
+}
+
+//////////////////////////////////
+
+
+/* //document.getElementById("giftbox_6").onclick = function()
+{
+       
+  var merrywrap = document.getElementById("merrywrap_6");
+  var box = document.getElementsByClassName("giftbox_6")[0];
+  
+  var step = 1;
+  var stepMinutes = [2000, 2000, 1000, 1000];
+  function init() 
+  {
+    
+      box.addEventListener("click", openBox, false);  
+  
+  }
+  function stepClass(step) {
+    merrywrap.className = 'merrywrap_6';
+    merrywrap.className = 'merrywrap_6 step-' + step;
+  }
+  function openBox() {
+   
+      if (step === 1) 
+      {
+        box.removeEventListener("click", openBox, false);
+      
+      }
+      stepClass(step);
+      if (step === 3) {
+        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
+      }
+      if (step === 4) {
+        reveal();
+        return;
+      }
+      setTimeout(openBox, stepMinutes[step - 1]);
+      step++;  
+  
+   
+  }
+
+  init();
+
+}
+ */
+//////////////////////////////////
+
+
+document.getElementById("giftbox_7").onclick = function()
+{
+       
+  var merrywrap = document.getElementById("merrywrap_7");
+  var box = document.getElementsByClassName("giftbox_7")[0];
+  
+  var step = 1;
+  var stepMinutes = [2000, 2000, 1000, 1000];
+  function init() 
+  {
+    
+      box.addEventListener("click", openBox, false);  
+  
+  }
+  function stepClass(step) {
+    merrywrap.className = 'merrywrap_7';
+    merrywrap.className = 'merrywrap_7 step-' + step;
+  }
+  function openBox() {
+   
+      if (step === 1) 
+      {
+        box.removeEventListener("click", openBox, false);
+      
+      }
+      stepClass(step);
+      if (step === 3) {
+        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
+      }
+      if (step === 4) {
+        reveal();
+        return;
+      }
+      setTimeout(openBox, stepMinutes[step - 1]);
+      step++;  
+  
+   
+  }
+
+  init();
+
+}
+
+//////////////////////////////////
+
+
+document.getElementById("giftbox_8").onclick = function()
+{
+       
+  var merrywrap = document.getElementById("merrywrap_8");
+  var box = document.getElementsByClassName("giftbox_8")[0];
+  
+  var step = 1;
+  var stepMinutes = [2000, 2000, 1000, 1000];
+  function init() 
+  {
+    
+      box.addEventListener("click", openBox, false);  
+  
+  }
+  function stepClass(step) {
+    merrywrap.className = 'merrywrap_8';
+    merrywrap.className = 'merrywrap_8 step-' + step;
+  }
+  function openBox() {
+   
+      if (step === 1) 
+      {
+        box.removeEventListener("click", openBox, false);
+      
+      }
+      stepClass(step);
+      if (step === 3) {
+        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
+      }
+      if (step === 4) {
+        reveal();
+        return;
+      }
+      setTimeout(openBox, stepMinutes[step - 1]);
+      step++;  
+  
+   
+  }
+
+  init();
+
+}
+
+//////////////////////////////////
+
+
+document.getElementById("giftbox_9").onclick = function()
+{
+       
+  var merrywrap = document.getElementById("merrywrap_9");
+  var box = document.getElementsByClassName("giftbox_9")[0];
+  
+  var step = 1;
+  var stepMinutes = [2000, 2000, 1000, 1000];
+  function init() 
+  {
+    
+      box.addEventListener("click", openBox, false);  
+  
+  }
+  function stepClass(step) {
+    merrywrap.className = 'merrywrap_9';
+    merrywrap.className = 'merrywrap_9 step-' + step;
+  }
+  function openBox() {
+   
+      if (step === 1) 
+      {
+        box.removeEventListener("click", openBox, false);
+      
+      }
+      stepClass(step);
+      if (step === 3) {
+        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
+      }
+      if (step === 4) {
+        reveal();
+        return;
+      }
+      setTimeout(openBox, stepMinutes[step - 1]);
+      step++;  
+  
+   
+  }
+
+  init();
+
+}
+
+//////////////////////////////////
+
+
+document.getElementById("giftbox_10").onclick = function()
+{
+       
+  var merrywrap = document.getElementById("merrywrap_10");
+  var box = document.getElementsByClassName("giftbox_10")[0];
+  
+  var step = 1;
+  var stepMinutes = [2000, 2000, 1000, 1000];
+  function init() 
+  {
+    
+      box.addEventListener("click", openBox, false);  
+  
+  }
+  function stepClass(step) {
+    merrywrap.className = 'merrywrap_10';
+    merrywrap.className = 'merrywrap_10 step-' + step;
+  }
+  function openBox() {
+   
+      if (step === 1) 
+      {
+        box.removeEventListener("click", openBox, false);
+      
+      }
+      stepClass(step);
+      if (step === 3) {
+        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
+      }
+      if (step === 4) {
+        reveal();
+        return;
+      }
+      setTimeout(openBox, stepMinutes[step - 1]);
+      step++;  
+  
+   
+  }
+
+  init();
+
+}
+
+//////////////////////////////////
+
+
+document.getElementById("giftbox_11").onclick = function()
+{
+       
+  var merrywrap = document.getElementById("merrywrap_11");
+  var box = document.getElementsByClassName("giftbox_11")[0];
+  
+  var step = 1;
+  var stepMinutes = [2000, 2000, 1000, 1000];
+  function init() 
+  {
+    
+      box.addEventListener("click", openBox, false);  
+  
+  }
+  function stepClass(step) {
+    merrywrap.className = 'merrywrap_11';
+    merrywrap.className = 'merrywrap_11 step-' + step;
+  }
+  function openBox() {
+   
+      if (step === 1) 
+      {
+        box.removeEventListener("click", openBox, false);
+      
+      }
+      stepClass(step);
+      if (step === 3) {
+        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
+      }
+      if (step === 4) {
+        reveal();
+        return;
+      }
+      setTimeout(openBox, stepMinutes[step - 1]);
+      step++;  
+  
+   
+  }
+
+  init();
+
+}
+
+//////////////////////////////////
+
+
+document.getElementById("giftbox_12").onclick = function()
+{
+       
+  var merrywrap = document.getElementById("merrywrap_12");
+  var box = document.getElementsByClassName("giftbox_12")[0];
+  
+  var step = 1;
+  var stepMinutes = [2000, 2000, 1000, 1000];
+  function init() 
+  {
+    
+      box.addEventListener("click", openBox, false);  
+  
+  }
+  function stepClass(step) {
+    merrywrap.className = 'merrywrap_12';
+    merrywrap.className = 'merrywrap_12 step-' + step;
+  }
+  function openBox() {
+   
+      if (step === 1) 
+      {
+        box.removeEventListener("click", openBox, false);
+      
+      }
+      stepClass(step);
+      if (step === 3) {
+        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
+      }
+      if (step === 4) {
+        reveal();
+        return;
+      }
+      setTimeout(openBox, stepMinutes[step - 1]);
+      step++;  
+  
+   
+  }
+
+  init();
+
+}
+
+//////////////////////////////////
+
+
+document.getElementById("giftbox_13").onclick = function()
+{
+       
+  var merrywrap = document.getElementById("merrywrap_13");
+  var box = document.getElementsByClassName("giftbox_13")[0];
+  
+  var step = 1;
+  var stepMinutes = [2000, 2000, 1000, 1000];
+  function init() 
+  {
+    
+      box.addEventListener("click", openBox, false);  
+  
+  }
+  function stepClass(step) {
+    merrywrap.className = 'merrywrap_13';
+    merrywrap.className = 'merrywrap_13 step-' + step;
+  }
+  function openBox() {
+   
+      if (step === 1) 
+      {
+        box.removeEventListener("click", openBox, false);
+      
+      }
+      stepClass(step);
+      if (step === 3) {
+        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
+      }
+      if (step === 4) {
+        reveal();
+        return;
+      }
+      setTimeout(openBox, stepMinutes[step - 1]);
+      step++;  
+  
+   
+  }
+
+  init();
+
+}
+
+//////////////////////////////////
+
+
+document.getElementById("giftbox_14").onclick = function()
+{
+       
+  var merrywrap = document.getElementById("merrywrap_14");
+  var box = document.getElementsByClassName("giftbox_14")[0];
+  
+  var step = 1;
+  var stepMinutes = [2000, 2000, 1000, 1000];
+  function init() 
+  {
+    
+      box.addEventListener("click", openBox, false);  
+  
+  }
+  function stepClass(step) {
+    merrywrap.className = 'merrywrap_14';
+    merrywrap.className = 'merrywrap_14 step-' + step;
+  }
+  function openBox() {
+   
+      if (step === 1) 
+      {
+        box.removeEventListener("click", openBox, false);
+      
+      }
+      stepClass(step);
+      if (step === 3) {
+        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
+      }
+      if (step === 4) {
+        reveal();
+        return;
+      }
+      setTimeout(openBox, stepMinutes[step - 1]);
+      step++;  
+  
+   
+  }
+
+  init();
+
+}
+
+//////////////////////////////////
+
+
+document.getElementById("giftbox_15").onclick = function()
+{
+       
+  var merrywrap = document.getElementById("merrywrap_15");
+  var box = document.getElementsByClassName("giftbox_15")[0];
+  
+  var step = 1;
+  var stepMinutes = [2000, 2000, 1000, 1000];
+  function init() 
+  {
+    
+      box.addEventListener("click", openBox, false);  
+  
+  }
+  function stepClass(step) {
+    merrywrap.className = 'merrywrap_15';
+    merrywrap.className = 'merrywrap_15 step-' + step;
+  }
+  function openBox() {
+   
+      if (step === 1) 
+      {
+        box.removeEventListener("click", openBox, false);
+      
+      }
+      stepClass(step);
+      if (step === 3) {
+        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
+      }
+      if (step === 4) {
+        reveal();
+        return;
+      }
+      setTimeout(openBox, stepMinutes[step - 1]);
+      step++;  
+  
+   
+  }
+
+  init();
+
+}
+
+//////////////////////////////////
+
+
+document.getElementById("giftbox_16").onclick = function()
+{
+       
+  var merrywrap = document.getElementById("merrywrap_16");
+  var box = document.getElementsByClassName("giftbox_16")[0];
+  
+  var step = 1;
+  var stepMinutes = [2000, 2000, 1000, 1000];
+  function init() 
+  {
+    
+      box.addEventListener("click", openBox, false);  
+  
+  }
+  function stepClass(step) {
+    merrywrap.className = 'merrywrap_16';
+    merrywrap.className = 'merrywrap_16 step-' + step;
+  }
+  function openBox() {
+   
+      if (step === 1) 
+      {
+        box.removeEventListener("click", openBox, false);
+      
+      }
+      stepClass(step);
+      if (step === 3) {
+        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
+      }
+      if (step === 4) {
+        reveal();
+        return;
+      }
+      setTimeout(openBox, stepMinutes[step - 1]);
+      step++;  
+  
+   
+  }
+
+  init();
+
+}
+
+//////////////////////////////////
+
+
+document.getElementById("giftbox_17").onclick = function()
+{
+       
+  var merrywrap = document.getElementById("merrywrap_17");
+  var box = document.getElementsByClassName("giftbox_17")[0];
+  
+  var step = 1;
+  var stepMinutes = [2000, 2000, 1000, 1000];
+  function init() 
+  {
+    
+      box.addEventListener("click", openBox, false);  
+  
+  }
+  function stepClass(step) {
+    merrywrap.className = 'merrywrap_17';
+    merrywrap.className = 'merrywrap_17 step-' + step;
+  }
+  function openBox() {
+   
+      if (step === 1) 
+      {
+        box.removeEventListener("click", openBox, false);
+      
+      }
+      stepClass(step);
+      if (step === 3) {
+        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
+      }
+      if (step === 4) {
+        reveal();
+        return;
+      }
+      setTimeout(openBox, stepMinutes[step - 1]);
+      step++;  
+  
+   
+  }
+
+  init();
+
+}
+
+//////////////////////////////////
+
+
+/*document.getElementById("giftbox_18").onclick = function()
+{
+       
+  var merrywrap = document.getElementById("merrywrap_18");
+  var box = document.getElementsByClassName("giftbox_18")[0];
+  
+  var step = 1;
+  var stepMinutes = [2000, 2000, 1000, 1000];
+  function init() 
+  {
+    
+      box.addEventListener("click", openBox, false);  
+  
+  }
+  function stepClass(step) {
+    merrywrap.className = 'merrywrap_18';
+    merrywrap.className = 'merrywrap_18 step-' + step;
+  }
+  function openBox() {
+   
+      if (step === 1) 
+      {
+        box.removeEventListener("click", openBox, false);
+      
+      }
+      stepClass(step);
+      if (step === 3) {
+        //console.log(box+"_"+box1+"_"+box2+"_"+box3);
+      }
+      if (step === 4) {
+        reveal();
+        return;
+      }
+      setTimeout(openBox, stepMinutes[step - 1]);
+      step++;  
+  
+   
+  }
+
+  init();
+
+}*/
+}
+
+//MY CHANGES
+
+
+
 
 function reveal() {
 
   document.getElementById("giftbox").style.display = "none";
   document.getElementById("giftbox_1").style.display = "none";
-  //MY CHANGES
-  document.getElementById("giftbox_2").style.display = "none";
-  document.getElementById("giftbox_3").style.display = "none";
+  document.getElementById("giftbox_2").style.display = "none"; //MY CHANGES
+  document.getElementById("giftbox_3").style.display = "none";//MY CHANGES
   document.getElementById("giftbox_4").style.display = "none";
   document.getElementById("giftbox_5").style.display = "none";
+  
   document.getElementById("giftbox_7").style.display = "none";
   document.getElementById("giftbox_8").style.display = "none";
   document.getElementById("giftbox_9").style.display = "none";
@@ -1175,7 +1179,7 @@ function reveal() {
   }
 
   var ifrm = document.createElement("iframe");
-  ifrm.setAttribute("src", "videos/Video_20200528130248036_by_videoshow.mp4?controls=0&loop=1&autoplay=1");
+  ifrm.setAttribute("src", "https://www.youtube.com/embed/gbICivOO26U?controls=0&loop=1&autoplay=1");
   //ifrm.style.width = `${w}px`;
   //ifrm.style.height = `${h}px`;
   ifrm.style.border = 'none';

@@ -168,17 +168,18 @@ div#sea {
   /*top:50%;
   width: 100%;*/
   height: auto;
-  transform: translateY(10px) rotate(-20deg);
+  transform: translateY(100px) rotate(-20deg);
 }
 .icons .row {
   width: 100%;
+  
   text-align: center;
 }
 .icons .row span {
   color: #e5e5e5;
   text-shadow: 4px 4px 0 rgba(96, 125, 139, 0.4);
   font-size: 50px;
-  display: inline-block;
+  /* display: inline-block; */
   opacity: 0;
   transition: transform 0.5s ease-in, opacity 0.7s;
 }
@@ -364,7 +365,8 @@ div#sea {
 .step-4 .icons .row span, .step-3 .icons .row span {
   /*animation: wobble 0.6s linear infinite forwards;*/
   color: #c6e2ff;
-  animation: neon .08s ease-in-out infinite alternate;
+width:100%;  /*my changes*/
+ */  animation: neon .08s ease-in-out infinite alternate;
 }
 
 .step-4 .icons .row span:nth-child(even), .step-3 .icons .row span:nth-child(even) {

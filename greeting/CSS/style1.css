@@ -364,6 +364,7 @@ div#sea {
 .step-4 .icons .row span, .step-3 .icons .row span {
   /*animation: wobble 0.6s linear infinite forwards;*/
   color: #c6e2ff;
+  width:80px;
   animation: neon .08s ease-in-out infinite alternate;
 }
 
